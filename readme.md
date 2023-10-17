@@ -80,7 +80,7 @@ For example, here is a correct graph file with 4 vertices and 5 edges
 
 For best performance, simply set this as 1. Note that this option does not work for the KCCA-basic algorithm
 
-`approximation rate` is the threshold for approximation rate. The program will terminate itself one it reaches the given approximation rate. This should be set as a float number greater than 1. To use this argument, please set `max iter` as zero.
+`approximation rate` is the threshold for approximation rate. The program will terminate itself once it reaches the given approximation rate. This should be set as a float number greater than 1. To use this argument, please set `max iter` as zero.
 
 For example, if we want to run the KCCA-basic algorithm to approximate 5-cliques densest subgraph from the graph in `test.txt` taking 10 iterations and output the result to `result.txt`. The command should be:
 
