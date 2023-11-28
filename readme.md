@@ -17,20 +17,26 @@ The codes of KCCA are implemented and tested under the following development env
 - C++ Version: 14
 
 ## Datasets
-We use 14 real-world datasets (bio-SC-GT,
-econ-beacxc,
-WikiTalk,
-Slashdot, 
-loc-gowalla,
-DBLP,
-web-Stanford, 
-web-Google,
-as-skitter,
-Wikipedia-link,
-zhishi-baidu,
-ew-2013,
-Orkut Social,
-Friendster Social) from different domains, which are downloaded from the [Stanford Network Analysis Platform](http://snap.stanford.edu/data/), [Laboratory of Web Algorithmics](http://law.di.unimi.it/datasets.php), [Network Repository](https://networkrepository.com/network-data.php), and [Networks](http://konect.cc/networks/). Their detailed descriptions can also be found on these websites.
+We use 14 real-world datasets from different domains, which are downloaded from the [Stanford Network Analysis Platform](http://snap.stanford.edu/data/), [Laboratory of Web Algorithmics](http://law.di.unimi.it/datasets.php), [Network Repository](https://networkrepository.com/network-data.php), and [Networks](http://konect.cc/networks/). 
+
+The statistical information is as follows, and you can click on the `Name` to navigate to the download link.
+
+|Name| \|V\| | \|E\| |
+| :----: | :----: | :----: |
+| [bio-SC-GT](https://networkrepository.com/bio-SC-GT.php) | 1,716 | 31,564 |
+| [econ-beacxc](https://networkrepository.com/econ-beacxc.php) | 507 | 42,176 |
+| [WikiTalk](https://snap.stanford.edu/data/wiki-Talk.html) | 120,834 | 237,551 |
+| [Slashdot](http://konect.cc/networks/slashdot-zoo) | 77,360 | 469,180 |
+| [loc-gowalla](http://snap.stanford.edu/data/loc-Gowalla.html) | 196,591 | 950,327 |
+| [DBLP](http://snap.stanford.edu/data/com-DBLP.html) | 317,080 | 1,049,866 |
+| [web-Stanford](https://networkrepository.com/web-Stanford.php) | 281,903 | 1,992,636 |
+| [web-Google](https://snap.stanford.edu/data/web-Google.html) | 916,428 | 4,322,051 | 
+| [as-skitter](http://snap.stanford.edu/data/as-Skitter.html) | 1,696,415 | 11,095,298 |
+| [Wikipedia-link](http://konect.cc/networks/wikipedia_link_es) | 3,033,374 | 43,845,958 |
+| [zhishi-baidu](http://konect.cc/networks/zhishi-all) | 7,827,193 | 62,246,014 |
+| [ew-2013](https://law.di.unimi.it/webdata/enwiki-2013) | 4,206,785 | 101,355,853 |
+| [Orkut](http://snap.stanford.edu/data/com-Orkut.html) | 3,072,627 | 117,185,083 |
+| [Friendster](https://snap.stanford.edu/data/com-Friendster.html) | 124,836,180 | 1,806,067,135 |
 
 ## How to Run the Codes
 
