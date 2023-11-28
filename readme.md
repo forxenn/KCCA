@@ -20,7 +20,7 @@ The codes of KCCA are implemented and tested under the following development env
 We use 14 real-world datasets from different domains, which are downloaded from the [Stanford Network Analysis Platform](http://snap.stanford.edu/data/), [Laboratory of Web Algorithmics](http://law.di.unimi.it/datasets.php), [Network Repository](https://networkrepository.com/network-data.php), and [Networks](http://konect.cc/networks/). 
 
 The statistical information is as follows, and you can click on the `Name` to navigate to the download link.
-
+| :----: | :----: | :----: |
 |Name| \|V\| | \|E\| |
 | :----: | :----: | :----: |
 | [bio-SC-GT](https://networkrepository.com/bio-SC-GT.php) | 1,716 | 31,564 |
