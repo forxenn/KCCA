@@ -84,7 +84,7 @@ For example, here is a correct graph file with 4 vertices and 5 edges
 
 * 3 stands for random order
 
-For best performance, simply set this as 1. Note that this option does not work for the KCCA-basic algorithm
+For best performance, simply set this as 1. Note that this option does not work for the KCCA-basic algorithm.
 
 `approximation rate` is the threshold for approximation rate. The program will terminate itself once it reaches the given approximation rate. This should be set as a float number greater than 1. To use this argument, please set `max iter` as zero.
 
@@ -96,4 +96,8 @@ If we want to run the KCCA algorithm to approximate 7-cliques densest subgraph f
 
 `./kcca test.txt 7 0 result.txt 1 2 1.01`
 
+## Contact
 
+If you have any questions about the code or find any errors, please list them in the `issue` or conteact me directly by email:
+
+`qingshuoguo@link.cuhk.edu.cn`
