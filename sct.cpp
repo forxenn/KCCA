@@ -396,7 +396,7 @@ bool cmp_s(sort_s a, sort_s b){
 void update(graph *g, node **root, unsigned k, double *r, double t, bool update_with_modify){
     unsigned i;
     double *rpast = new double[g->n];
-    if(update_with_modify){
+    if(update_with_modify == 0){
         for(i = 0; i < g->n; i++){
             rpast[i] = r[i];
         }    
