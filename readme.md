@@ -98,7 +98,7 @@ If we want to run the KCCA algorithm to approximate 7-cliques densest subgraph f
 
 ## Contact
 
-If you have any questions about the code or find any errors, please list them in the `issue` or conteact us directly by email:
+If you have any questions about the code or find any errors, please list them in the `issue` or contact us directly by email:
 
 `qingshuoguo@link.cuhk.edu.cn`
 
