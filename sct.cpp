@@ -105,7 +105,7 @@ node **build_sct(graph *g, int k){
     for(int i = 0; i < max_kcore; i++){
         new_edge[i] = new bool[max_kcore]();
     }
-    unsigned queue_size =  std::max((unsigned) 1000000, g->m); 
+    unsigned queue_size =  std::max((unsigned) 1000000000, g->m); 
     int head = 0, tail = queue_size - 1;
     queue_for_sct **q = new queue_for_sct*[queue_size](); // need to check if it is indeed m.
 
